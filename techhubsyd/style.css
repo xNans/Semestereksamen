@@ -112,7 +112,7 @@ ul.menu a:hover {
 }
 
 .headertext {
-    color: rgb(15, 13, 13);
+    color: rgb(255, 255, 255);
     font-size: 100px;
     margin-top: 100px;
     margin-left: 100px;
@@ -662,6 +662,17 @@ ul.menu a:hover {
 }
 
 /* page-events slut */
+
+.forstartupsimage1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 80px;
+    font-family: 'Oxanium', cursive;
+}
+
 /* page Contact start linje 649*/
 
 .contactsection1 {
@@ -807,17 +818,59 @@ ul.menu a:hover {
 }
 
 @media screen and (max-width: 970px){
-    .backgroundgif {
-        height: 100% 100%;
+    header {
+        display: flex;
+        flex-direction: column;
+        height: auto;
     }
 
-    .forside1btn2 {
-        width: 100px;
-        height: 50px;
+    .header {
+        gap:0;
     }
+    .section1 {
+        width: 300px;
+        height: auto;
+    }
+
+    .forside1btn1, .forside1btn2, .btn1, .eventbtn {
+        height: 80px;
+        width: 150px;
+        font-size: 1.5em;
+    }
+
+    .forstartupsbtn {
+        width: 200px;
+        height: 100px;
+    }
+
+    .headertext {
+        font-size: 30px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .subtext {
+        font-size: 30px;
+
+    }
+
+    .headertext1, .headertext2, .headertext3 {
+        font-size: 2.1em;
+    }
+
+    .subtext1, .subtext2, .subtext3 {
+        font-size: 20px;
+    }
+
+
+
     .eventinformation {
         width: auto;
         gap: 20px;
+    }
+
+    .headertext {
+        font-size: 30px;
     }
     
     .eventcalender {
@@ -829,19 +882,19 @@ ul.menu a:hover {
         gap: 20px;
     }
 
-    .headertext {
-        font-size: 30px;
-    }
-
     .eventcalenderh2, .eventh2, .headertext {
         font-size: 4em; /*Her bliver brug em, h2 overskrifterne indretter sig efter pixels angivet, i versionen til PC skærm*/
     }
 
     .forside1btns, .subtext {
-        padding-left: 20px;
+        padding-left: 50px;
     }
 
-    .promovideo, .eventsection3, .eventsection2, .footer1 {
+    iframe {
+        width: 300px;
+    }
+
+    .eventsection3, .eventsection2, .footer1, ul.menu, .section4 {
         width: auto;
         height: auto;
     }
@@ -858,7 +911,5 @@ ul.menu a:hover {
     .backgroundimage, .footer2 {
         width: auto;
     }
-
-   
 
 }
