@@ -1,0 +1,850 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Frontpage line 8 - */
+
+
+/* Styling af menupunkter line 9 - 82*/
+
+.menu-header-menu-container {
+    float: left;
+    width: 80%;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Der er brugt float i menuen, for at føre dem ind i samme section */
+
+ul.menu {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  height: 16.7vh;
+  padding-left: 50px;
+  justify-content: end;
+
+}
+ 
+ul.menu {
+  height: 16.7vh;
+}
+
+
+ul.menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+ul.menu {
+  list-style: none;
+}
+
+ul.menu a{
+  color:#5F0F4E;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  font-family: 'Oxanium', cursive;
+}
+
+
+ul.menu a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 1.5px;
+  bottom: 0;
+  top: 25px;
+  left: 0;
+  background-color: black;
+  transform: scaleX(0);
+  transition: transform 0.4s ease;
+}
+
+ul.menu a:hover::before {
+  transform: scaleX(1);
+}
+
+ul.menu a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Menu styling slut */
+
+/* Dette baggrundsbillede ligger på hele forsiden */
+.backgroundimage {
+    background-image: url("./images/whitespace2.png");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+/* Section 1 fra linje 95-184*/
+
+.sektion1 {
+    height: 100vh;
+}
+
+
+.header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.backgroundgif {
+    background-size: 100% 100%;
+
+}
+
+.headertext {
+    color: white;
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: 'Oxanium', cursive;
+}
+
+.subtext {
+    color: white;
+    font-size: 50px;
+    padding-left: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.forside1btns {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+
+.forside1btn1 {
+    height: 80px;
+    width: 300px;
+    background-image: linear-gradient(to bottom right, #5F0F4E, #675682);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.forside1btn1:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.forside1btn2 {
+    height: 80px;
+    width: 300px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    background-image: linear-gradient(to bottom right, #5F0F4E, #675682);
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.forside1btn2:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.buttonlink:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.buttonlink {
+    text-decoration: none;
+    color: white;
+}
+
+
+ 
+/* Section 1 slut*/
+
+/* Section 2 linje 192 - 354*/
+
+.section2 {
+    height: 90vh;
+}
+
+.forside2h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 50px;
+    font-family: 'Oxanium', cursive;
+    color: #5F0F4E;
+}
+
+.forside2 {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+/* What we do boks 1*/
+
+.whatwedo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+}
+
+.icon1 {
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(to bottom right, #5F0F4E, #675682);
+    border-radius: 100px;
+}
+
+.headertext1 {
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color:#5F0F4E;
+    font-family: 'Oxanium', cursive;
+}
+
+.subtext1 {
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #5F0F4E;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* What we do boks 2*/
+
+.whatwedo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.icon2 {
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(to bottom right, #5F0F4E, #675682);
+    border-radius: 100px;
+}
+
+.headertext2 {
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color:#5F0F4E;
+    font-family: 'Oxanium', cursive;
+}
+
+.subtext2 {
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #5F0F4E;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* What we do boks 3*/
+
+.whatwedo3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.icon3 {
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(to bottom right, #5F0F4E, #675682);
+    border-radius: 100px;
+}
+
+.headertext3 {
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color:#5F0F4E;
+    font-family: 'Oxanium', cursive;
+}
+
+.subtext3 {
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #5F0F4E;
+    font-family: 'Roboto', sans-serif;
+}
+
+.whatwedobtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1 {
+    margin-top: 100px;
+    height: 80px;
+    width: 300px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    background-image: linear-gradient(to bottom right, #5F0F4E, #675682);
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn1:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+
+/* Section 2 finish */
+
+/* Section 3 line 359 - 430*/
+
+.section3 {
+    height: 190vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/dooonee.png");
+    background-repeat: no-repeat;
+}
+
+.promovideoboks {
+    height: 70vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+
+}
+
+.promovideo {
+    justify-self: flex-start;
+    width: 800px;
+    height: 500px;
+    background-color: #186D8B;
+}
+
+.textboks {
+    width: 800px;
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.eventsh2 {
+    font-size: 80px;
+    color: white;
+    border-bottom: solid 2px white;
+    font-family: 'Oxanium', cursive;
+}
+
+.eventstext2 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.eventbtn {
+    height: 80px;
+    width: 300px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    border: solid 5px white;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.eventbtn:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+/* Section 3 finish */
+
+/* Section 4 line 434- 497*/
+
+.section4 {
+    height: 90vh;
+}
+
+.startup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    gap: 350px;
+}
+
+.startuptextboks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.h2startup {
+    font-size: 80px;
+    color: #5F0F4E;
+    padding-bottom: 50px;
+    font-family: 'Oxanium', cursive;
+}
+
+.eventstext {
+    font-family: 'Roboto', sans-serif;
+    color: #5F0F4E;
+}
+
+.forstartupsbtn {
+    margin-top: 50px;
+    height: 80px;
+    width: 300px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    background-image: linear-gradient(to bottom right, #5F0F4E, #675682);
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.forstartupsbtn:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.startupimg {
+
+    border-radius: 300px;
+    height: 600px;
+    width: 600px;
+    background-image: url("./images/startupimg.jpg");
+    background-size: cover;
+}
+
+/* Forside slut - Undladt at designe subscribe, det sker efter projektlevering*/
+
+/* What we do start */
+
+.pagewhatwedo1 {
+    height: 100vh;
+    height: 100vh;
+}
+
+.pagewhatwedo2 {
+    height: 100vh;
+}
+
+.whatwedoheaderimage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 80px;
+    font-family: 'Oxanium', cursive;
+}
+
+
+/* Page-events start linje 501-644*/
+
+.eventsection1 {
+    height: 100vh;
+    font-size: 100px;
+    color: white;
+    font-family: 'Oxanium', cursive;
+}
+
+.eventheadertext{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.eventsheaderimage {
+    background-size: 100% 100%;
+}
+
+.eventsection2 {
+    height: 100vh;
+
+}
+
+.events2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.eventh2 {
+    color: #5F0F4E;
+    height: 200px;
+    padding-top: 50px;
+    font-size: 80px;
+    font-family: 'Oxanium', cursive;
+}
+
+.eventimage{
+    height: 500px;
+    width: 800px;
+    background-size: cover;
+}
+
+.eventinformation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+}
+
+.eventdato {
+    height: 100px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.eventheadertext2 {
+    height: 100px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: solid 2px #5F0F4E;
+    font-family: 'Roboto', sans-serif;
+}
+
+.eventtext {
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border-left: solid 2px #5F0F4E;
+    font-family: 'Roboto', sans-serif;
+}
+
+.eventsection3 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.eventcalenderh2 {
+    display: flex;
+    justify-self: flex-start;
+    color:#5F0F4E;
+    font-size: 80px;
+    margin-bottom: 100px;
+    border-bottom: solid 5px white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.eventcalender {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    border-bottom: solid 2px#5F0F4E
+}
+
+.eventcalender1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    border-bottom: solid 2px#5F0F4E;
+}
+
+.eventdato1 {
+    height: 100px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.eventheadertext3 {
+    height: 100px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: solid 2px #5F0F4E;
+    font-family: 'Roboto', sans-serif;
+}
+
+.eventtext1 {
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border-left: solid 2px #5F0F4E;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* page-events slut */
+/* page Contact start linje 649*/
+
+.contactsection1 {
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.h2contactheader {
+    font-size: 100px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Oxanium', cursive;
+}
+
+.contactsection2 {
+    height: 100vh;
+}
+
+.contactus {
+    background-image: linear-gradient(to bottom right, #5F0F4E, #675682);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactinfo {
+    height: 100vh;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contactform {
+    height: 100vh;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Contact end*/
+
+.footer1 {
+    width: 100%;
+    height: 300px;
+    background-color: #00000009;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.footercontact {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #5F0F4E;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footersitemap {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #5F0F4E;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footerpartners {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #5F0F4E;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footerlink:visited {
+    text-decoration: none;
+    color:#5F0F4E;
+}
+
+.footerlink {
+    padding-top: 10px;
+    text-decoration: none;
+    color:#5F0F4E;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1400px){
+    .promovideoboks {
+        gap:0;
+    }
+
+    .startup {
+        gap:0;
+    }
+
+    .forside2 {
+        gap:0;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .promovideoboks {
+        flex-direction: column;
+    }
+    .startup {
+        flex-direction: column;
+        gap:0;
+    }
+
+    .forside2 {
+        flex-direction: column;
+
+    }
+    .section2 {
+        height: auto;
+    }
+    .contactus {
+        flex-direction: column; 
+    }
+}
+
+@media screen and (max-width: 970px){
+    .eventinformation {
+        width: auto;
+        gap: 20px;
+    }
+    
+    .eventcalender {
+        width: auto;
+        gap: 20px;
+    }
+    .eventcalender1 {
+        width: auto;
+        gap: 20px;
+    }
+
+    .eventcalenderh2, .eventh2, .headertext {
+        font-size: 4em; /*Her bliver brug em, h2 overskrifterne indretter sig efter pixels angivet, i versionen til PC skærm*/
+    }
+
+    .forside1btns, .subtext {
+        padding-left: 50px;
+    }
+
+    .promovideo, .eventsection3, .eventsection2, .footer1 {
+        width: auto;
+        height: auto;
+    }
+
+    .startupimg {
+        height: 400px;
+        width: 400px;
+    }
+
+    ul.menu, .footer2 {
+        flex-direction: column;
+    }
+
+    .backgroundimage, .footer2 {
+        width: auto;
+    }
+
+}
