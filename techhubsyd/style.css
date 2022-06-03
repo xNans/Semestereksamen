@@ -112,7 +112,7 @@ ul.menu a:hover {
 }
 
 .headertext {
-    color: white;
+    color: rgb(15, 13, 13);
     font-size: 100px;
     margin-top: 100px;
     margin-left: 100px;
@@ -807,6 +807,14 @@ ul.menu a:hover {
 }
 
 @media screen and (max-width: 970px){
+    .backgroundgif {
+        height: 100% 100%;
+    }
+
+    .forside1btn2 {
+        width: 100px;
+        height: 50px;
+    }
     .eventinformation {
         width: auto;
         gap: 20px;
@@ -821,12 +829,16 @@ ul.menu a:hover {
         gap: 20px;
     }
 
+    .headertext {
+        font-size: 30px;
+    }
+
     .eventcalenderh2, .eventh2, .headertext {
         font-size: 4em; /*Her bliver brug em, h2 overskrifterne indretter sig efter pixels angivet, i versionen til PC skærm*/
     }
 
     .forside1btns, .subtext {
-        padding-left: 50px;
+        padding-left: 20px;
     }
 
     .promovideo, .eventsection3, .eventsection2, .footer1 {
@@ -846,5 +858,7 @@ ul.menu a:hover {
     .backgroundimage, .footer2 {
         width: auto;
     }
+
+   
 
 }
